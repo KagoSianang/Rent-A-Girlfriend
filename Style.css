@@ -1,0 +1,202 @@
+*{
+	margin: 0px;
+	padding: 10px;
+}
+
+head {
+	max-width: 1000px;
+	float: none;
+	margin: auto;
+	font-family: Optima;
+	background-color: #ffe4e1
+}
+body {
+	max-width: 1000px;
+	float: none;
+	margin: auto;
+	font-family: Fantasy;
+	background: linear-gradient(120deg,#F80C9B, #8e44ad)
+	
+}
+
+header{
+      width: 100%
+      display: inline-block;
+	  background: linear-gradient(120deg,#F80C9B, #8e44ad)
+	  color: black;	
+	 font-family: Fantasy; 
+}
+
+.link {
+	text-decoration: none;
+}
+
+.aside-left {
+      width: 20%
+      float: left;
+      display: block;
+      min-height: 300px;
+}
+main {
+     width: 60% 
+	 float: left;
+	 display: block;
+	 min-height: 300px;
+	 color:black;
+	 background: linear-gradient(120deg,#F80C9B, #8e44ad)
+	 font-family: Fantasy;	
+	 text-decoration: none;
+	 	
+}
+aside {	 
+     width: 20%;
+	 float: right;
+	 display: block;
+	 min-height: 300px;
+	 color:black;
+	background: linear-gradient(120deg,#F80C9B, #8e44ad)
+}	
+footer { 
+      width: 100%;
+	  display: inline-block;
+	  background-color: #8e44ad
+	  font-family: Fantasy;
+	  color: black;	
+}
+.left-footer {
+     width:30%;
+     float: left;	 
+	 display: block;
+	 min-height: 200px
+	 
+}
+.center-footer {
+         width: 33%;	
+		 float: left;
+		 display: block;
+		 min-height: 200px;
+		 color:red;
+}
+.right-footer{
+	width:33% 
+	float: right;
+	display: block;
+	min-height: 200px
+}	
+ 
+.copyright {
+     width: 50%
+     display: inline-block;	 
+	 background-color: #F80C9B;
+	 color:black;
+	 text-decoration:none;
+	 font-family: Fantasy;
+	
+}
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: white;
+  overflow: hidden;
+  border-radius: 70px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #F80C9B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 70px;
+}
+
+.topnav a.active {
+  background-color: #F80C9B;
+  color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F80C9B;
+  color: white;
+} 
+.sign-up-form
+{
+	
+	width:600px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
+	background: #fff;
+	padding: 20px;
+	margin: 8% auto;
+	text-align: center
+}	
+.sign-up-form h1
+{
+  color: #black;
+margin-bottom: 30px;  
+}
+.input-box
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #999;
+	outline: none;
+	font-family: monsterrat;
+	background: #fff;
+}	
+button
+{
+	color:#black;
+	width: 100%
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 35px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}	
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+input[type="submit"]{
+width: 100%;
+height: 50px;
+border: 1px solid;
+background: #F80C9B;
+border-radius: 25px;
+font-size: 18px;
+color: black;
+font-weight: 700;
+cursor: pointer;
+outline: none;
+}
+
+input[type="submit"]:hover{
+	border-color: #2691d9;
+	transition: .5s
+}
+
+.signup_link{
+	margin: 30px 0;
+	text-align: center;
+	font-size: 16px;
+	color: # black;
+}
+
+.signup_link a{
+	text-decoration: none;
+	color: # black;
+}
+
+.signup_link a:hover{
+	text-decoration: underline;
+	
+}
